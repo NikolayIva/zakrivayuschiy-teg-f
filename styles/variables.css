@@ -1,1 +1,18 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+  --themes-mainColor: #fff; /* основной цвет фона */
+  --themes-mainColor-accent: #000; /* основной цвет фона */
+  --color-text-button: #fff;
+  --themes-mainFont: 'Inter-Variable';
+  --themes-mainFont-accent: 'PressStart2P-Regular';
+  --font-weight: 400;
+  --font-weight-header: 700;
+  --bg-image: 
+    repeating-linear-gradient(90deg, #d3d3d3 0 2px, rgb(211 211 211 / 0) 2px 4px),
+    repeating-linear-gradient(180deg, #d3d3d3 0 2px, rgb(231 231 231 / 0) 2px 4px),
+    linear-gradient(180deg, #e7e7e7 0.01%, #1a1a1a 100%);
+  --heart-color: #000;
+  --heart-accent: #FF0000;
+
+}
+

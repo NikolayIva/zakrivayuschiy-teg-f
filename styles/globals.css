@@ -51,3 +51,12 @@ ol {
   clip-path: inset(50%);
   white-space: nowrap;
 }
+
+button {
+  all: unset;
+  /* outline: none; */
+}
+
+dialog {
+  padding: 0;
+}

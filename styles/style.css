@@ -44,8 +44,12 @@
   border: 2px solid var(--themes-mainColor-accent, #000);
   padding-block-start: 136px;
   background-color: var(--themes-mainColor, #fff);
-  inline-size: clamp(376px, 100%, 700px);
+  /* inline-size: clamp(376px, 100%, 700px); */
   block-size: clamp(327px, 100%, 368px);
+}
+
+.inline__size {
+  inline-size: var(--width-section);
 }
 
 .header__title {
@@ -137,7 +141,7 @@
   flex-direction: column;
   align-items: center;
   gap: 50px;
-  inline-size: clamp(376px, 100%, 696px);
+  /* inline-size: clamp(376px, 100%, 696px); */
 }
 
 .article {
@@ -145,7 +149,7 @@
   margin-inline: auto;
   border: 2px solid var(--themes-mainColor-accent, #000);
   background-color: var(--themes-mainColor, #fff);
-  inline-size: clamp(376px, 100%, 696px);
+  /* inline-size: clamp(376px, 100%, 696px); */
 }
 
 .article__header {
@@ -497,7 +501,3 @@ dialog::backdrop {
     block-size: 28px;
   }
 }
-
-
-
-

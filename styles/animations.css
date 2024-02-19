@@ -22,12 +22,8 @@
   }
 }
 
-
-
 .contour {
   fill: var(--heart-color);
-
-  /* transition: fill 0.1s linear; */
 }
 
 .main-body {

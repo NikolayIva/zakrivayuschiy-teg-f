@@ -13,6 +13,5 @@
     linear-gradient(180deg, #e7e7e7 0.01%, #1a1a1a 100%);
   --heart-color: #000;
   --heart-accent: #FF0000;
-
+  --width-section: clamp(1rem, -1.019rem + 8.615vw, 2.75rem);
 }
-

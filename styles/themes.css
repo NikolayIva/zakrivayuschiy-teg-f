@@ -15,7 +15,7 @@
     repeating-linear-gradient(180deg, #000 0 2px, rgb(0 0 0 / 0) 2px 4px),
     linear-gradient(180deg, #007f0c 0%, #004306 100%);
   --heart-color: #00CC14;
-
+  --width-section: clamp(376px, 100%, 700px);
 }
 
 :root.theme-light {
@@ -31,6 +31,7 @@
     repeating-linear-gradient(180deg, #d3d3d3 0 2px, rgb(231 231 231 / 0) 2px 4px),
     linear-gradient(180deg, #e7e7e7 0.01%, #1a1a1a 100%);
     --heart-color: #000;
+    --width-section: clamp(376px, 100%, 700px);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -45,5 +46,6 @@
       repeating-linear-gradient(180deg, #000 0 2px, rgb(0 0 0 / 0) 2px 4px),
       linear-gradient(180deg, #007f0c 0%, #004306 100%);
       --heart-color: #00CC14;
+      --width-section: clamp(376px, 100%, 700px);
   }
 }

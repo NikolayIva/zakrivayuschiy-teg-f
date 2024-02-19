@@ -19,8 +19,8 @@
 }
 
 :root.theme-light {
-  --themes-mainColor: #fff; 
-  --themes-mainColor-accent: #000; 
+  --themes-mainColor: #fff;
+  --themes-mainColor-accent: #000;
   --color-text-button: #fff;
   --themes-mainFont: 'Inter-Variable';
   --themes-mainFont-accent: 'PressStart2P-Regular';

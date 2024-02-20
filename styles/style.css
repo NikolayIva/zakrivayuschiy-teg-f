@@ -84,17 +84,11 @@
   flex-direction: column;
   gap: 14px;
   padding-block-end: 25px;
-  font-family: 14px;
   line-height: 14px;
 }
 
 .theme-menu__item {
   position: relative;
-}
-
-.button {
-  font-family: var(--themes-mainFont-accent, serif);
-  font-size: 14px;
 }
 
 .button:hover {
@@ -288,6 +282,12 @@
   transition: 0.3s;
 }
 
+.button__text-accent {
+  z-index: 2;
+  color: var(--color-text-button);
+  mix-blend-mode: difference;
+}
+
 .button__accent:focus {
   outline: none;
 }
@@ -314,9 +314,8 @@
 }
 
 .button__text {
-  z-index: 2;
-  color: var(--color-text-button);
-  mix-blend-mode: difference;
+  font-family: var(--themes-mainFont-accent, serif);
+  font-size: 14px;
 }
 
 .button__aling {
@@ -383,7 +382,7 @@ dialog::backdrop {
 .dialog__text {
   max-width: 200px;
   color: var(--themes-mainColor-accent);
-  font-family: var(--themes-mainFont-accent);
+  font-family: var(--themes-mainFont-accent, serif);
   font-size: 14px;
   line-height: 21px;
   text-transform: uppercase;

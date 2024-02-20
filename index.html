@@ -19,7 +19,7 @@
   <body class="page">
     <header class="header inline__size">
       <div class="header__title">
-        <p class="header__title-logo">&lt;/Html&gt;</p>
+        <a class="header__title-logo">&lt;/Html&gt;</a>
         <h1 class="header__title-text">Закрывающий тег</h1>
       </div>
       <nav class="theme-menu header__theme-menu">
@@ -29,7 +29,7 @@
             <button
               type="button"
               data-theme="dark"
-              class="button theme-menu__button theme-menu__button-underline"
+              class="button theme-menu__button theme-menu__button-focus-visible"
             >
               Темно
             </button>
@@ -39,7 +39,7 @@
               type="button"
               data-theme="auto"
               disabled
-              class="button theme-menu__button theme-menu__button-underline"
+              class="button theme-menu__button theme-menu__button-focus-visible"
             >
               Авто
             </button>
@@ -48,7 +48,7 @@
             <button
               type="button"
               data-theme="light"
-              class="button theme-menu__button theme-menu__button-underline"
+              class="button theme-menu__button theme-menu__button-focus-visible"
             >
               Светло
             </button>
@@ -63,12 +63,12 @@
         </h2>
         <div class="article__pictures">
           <img
-            class="pictures pictures__zero-sprint"
+            class="pictures pictures__grayscale"
             src="./images/image.png"
             alt="машина стоящая на ночной парковке возле дерева"
             loading="lazy"
           />
-          <p class="article__pictures-label">&lt;Эйфория&gt;</p>
+          <span class="article__pictures-label">&lt;Эйфория&gt;</span>
         </div>
         <div class="article__text">
           <p class="article__text-paragraph">
@@ -82,7 +82,7 @@
           </p>
         </div>
         <div class="article__button button__aling">
-          <button class="card__icon-button">
+          <button class="card__icon-button" type="button">
             <svg
               class="like-icon"
               width="39"
@@ -90,6 +90,7 @@
               viewBox="0 0 39 36"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
+              aria-hidden="true"
             >
               <g class="heart">
                 <path
@@ -122,8 +123,8 @@
               />
             </svg>
           </button>
-          <button class="button card__like-button button__accent">
-            <span class="button__text button__text-color"> Like </span>
+          <button class="button card__like-button button__accent" type="button">
+            <span class="button__text"> Like </span>
           </button>
         </div>
       </article>
@@ -131,12 +132,12 @@
         <h2 class="article__header">1 спринт: Я — чистый лист</h2>
         <div class="article__pictures">
           <img
-            class="pictures pictures__first-sprint-one"
+            class="pictures pictures__contrast"
             src="./images/image.png"
             alt="машина стоящая на ночной парковке возле дерева"
             loading="lazy"
           />
-          <p class="article__pictures-label">&lt;Предвкушение&gt;</p>
+          <span class="article__pictures-label">&lt;Предвкушение&gt;</span>
         </div>
         <div class="article__text">
           <p class="article__text-paragraph">
@@ -152,7 +153,7 @@
           </p>
         </div>
         <div class="article__button button__aling">
-          <button class="card__icon-button">
+          <button class="card__icon-button" type="button">
             <svg
               class="like-icon"
               width="39"
@@ -160,6 +161,7 @@
               viewBox="0 0 39 36"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
+              aria-hidden="true"
             >
               <g class="heart">
                 <path
@@ -192,8 +194,8 @@
               />
             </svg>
           </button>
-          <button class="button card__like-button button__accent">
-            <span class="button__text button__text-color"> Like </span>
+          <button class="button card__like-button button__accent" type="button">
+            <span class="button__text"> Like </span>
           </button>
         </div>
       </article>
@@ -201,12 +203,12 @@
         <h2 class="article__header">1 спринт: А если не получится?</h2>
         <div class="article__pictures">
           <img
-            class="pictures pictures__first-sprint-two"
+            class="pictures pictures__saturate"
             src="./images/image.png"
             alt="машина стоящая на ночной парковке возле дерева"
             loading="lazy"
           />
-          <p class="article__pictures-label">&lt;Хм... не просто&gt;</p>
+          <span class="article__pictures-label">&lt;Хм... не просто&gt;</span>
         </div>
         <div class="article__text">
           <p class="article__text-paragraph">
@@ -220,7 +222,7 @@
           </p>
         </div>
         <div class="article__button button__aling">
-          <button class="card__icon-button">
+          <button class="card__icon-button" type="button">
             <svg
               class="like-icon"
               width="39"
@@ -228,6 +230,7 @@
               viewBox="0 0 39 36"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
+              aria-hidden="true"
             >
               <g class="heart">
                 <path
@@ -260,8 +263,8 @@
               />
             </svg>
           </button>
-          <button class="button card__like-button button__accent">
-            <span class="button__text button__text-color"> Like </span>
+          <button class="button card__like-button button__accent" type="button">
+            <span class="button__text"> Like </span>
           </button>
         </div>
       </article>
@@ -269,12 +272,12 @@
         <h2 class="article__header">2 спринт: Погоня за идеалом</h2>
         <div class="article__pictures">
           <img
-            class="pictures pictures__second-sprint-one"
+            class="pictures pictures__hue-rotate"
             src="./images/image.png"
             alt="машина стоящая на ночной парковке возле дерева"
             loading="lazy"
           />
-          <p class="article__pictures-label">&lt;Совсем не просто&gt;</p>
+          <span class="article__pictures-label">&lt;Совсем не просто&gt;</span>
         </div>
         <div class="article__text">
           <p class="article__text-paragraph">
@@ -290,7 +293,7 @@
           </p>
         </div>
         <div class="article__button button__aling">
-          <button class="card__icon-button">
+          <button class="card__icon-button" type="button">
             <svg
               class="like-icon"
               width="39"
@@ -298,6 +301,7 @@
               viewBox="0 0 39 36"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
+              aria-hidden="true"
             >
               <g class="heart">
                 <path
@@ -330,8 +334,8 @@
               />
             </svg>
           </button>
-          <button class="button card__like-button button__accent">
-            <span class="button__text button__text-color"> Like </span>
+          <button class="button card__like-button button__accent" type="button">
+            <span class="button__text"> Like </span>
           </button>
         </div>
       </article>
@@ -339,12 +343,14 @@
         <h2 class="article__header">2 спринт: О тех, кто рядом</h2>
         <div class="article__pictures">
           <img
-            class="pictures pictures__second-sprint-two"
+            class="pictures pictures__sepia"
             src="./images/image.png"
             alt="машина стоящая на ночной парковке возле дерева"
             loading="lazy"
           />
-          <p class="article__pictures-label">&lt;Помогите, подскажите&gt;</p>
+          <span class="article__pictures-label"
+            >&lt;Помогите, подскажите&gt;</span
+          >
         </div>
         <div class="article__text">
           <p class="article__text-paragraph">
@@ -361,7 +367,7 @@
           </p>
         </div>
         <div class="article__button button__aling">
-          <button class="card__icon-button">
+          <button class="card__icon-button" type="button">
             <svg
               class="like-icon"
               width="39"
@@ -369,6 +375,7 @@
               viewBox="0 0 39 36"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
+              aria-hidden="true"
             >
               <g class="heart">
                 <path
@@ -401,8 +408,8 @@
               />
             </svg>
           </button>
-          <button class="button card__like-button button__accent">
-            <span class="button__text button__text-color"> Like </span>
+          <button class="button card__like-button button__accent" type="button">
+            <span class="button__text"> Like </span>
           </button>
         </div>
       </article>
@@ -410,12 +417,12 @@
         <h2 class="article__header">3 спринт: Обходные стратегии</h2>
         <div class="article__pictures">
           <img
-            class="pictures pictures__third-sprint-one"
+            class="pictures pictures__invert"
             src="./images/image.png"
             alt="машина стоящая на ночной парковке возле дерева"
             loading="lazy"
           />
-          <p class="article__pictures-label">&lt;Пустота&gt;</p>
+          <span class="article__pictures-label">&lt;Пустота&gt;</span>
         </div>
         <div class="article__text">
           <p class="article__text-paragraph">
@@ -426,7 +433,7 @@
           <p class="article__text-paragraph">Тут ничего не помню... (улыбка)</p>
         </div>
         <div class="article__button button__aling">
-          <button class="card__icon-button">
+          <button class="card__icon-button" type="button">
             <svg
               class="like-icon"
               width="39"
@@ -434,6 +441,7 @@
               viewBox="0 0 39 36"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
+              aria-hidden="true"
             >
               <g class="heart">
                 <path
@@ -466,8 +474,8 @@
               />
             </svg>
           </button>
-          <button class="button card__like-button button__accent">
-            <span class="button__text button__text-color"> Like </span>
+          <button class="button card__like-button button__accent" type="button">
+            <span class="button__text"> Like </span>
           </button>
         </div>
       </article>
@@ -475,12 +483,12 @@
         <h2 class="article__header">3 спринт: Когда опускаются руки</h2>
         <div class="article__pictures">
           <img
-            class="pictures pictures__third-sprint-two"
+            class="pictures pictures__opacity-contrast"
             src="./images/image.png"
             alt="машина стоящая на ночной парковке возле дерева"
             loading="lazy"
           />
-          <p class="article__pictures-label">&lt;Не сдаваться!&gt;</p>
+          <span class="article__pictures-label">&lt;Не сдаваться!&gt;</span>
         </div>
         <div class="article__text">
           <p class="article__text-paragraph">
@@ -495,7 +503,7 @@
           </p>
         </div>
         <div class="article__button button__aling">
-          <button class="card__icon-button">
+          <button class="card__icon-button" type="button">
             <svg
               class="like-icon"
               width="39"
@@ -503,6 +511,7 @@
               viewBox="0 0 39 36"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
+              aria-hidden="true"
             >
               <g class="heart">
                 <path
@@ -535,8 +544,8 @@
               />
             </svg>
           </button>
-          <button class="button card__like-button button__accent">
-            <span class="button__text button__text-color"> Like </span>
+          <button class="button card__like-button button__accent" type="button">
+            <span class="button__text"> Like </span>
           </button>
         </div>
       </article>
@@ -544,12 +553,12 @@
         <h2 class="article__header">«Сейчас я здесь»</h2>
         <div class="article__pictures">
           <img
-            class="pictures pictures__here"
+            class="pictures pictures__blur"
             src="./images/image.png"
             alt="машина стоящая на ночной парковке возле дерева"
             loading="lazy"
           />
-          <p class="article__pictures-label">&lt;Все получится&gt;</p>
+          <span class="article__pictures-label">&lt;Все получится&gt;</span>
         </div>
         <div class="article__text">
           <p class="article__text-paragraph">
@@ -565,7 +574,7 @@
           </p>
         </div>
         <div class="article__button button__aling">
-          <button class="card__icon-button">
+          <button class="card__icon-button" type="button">
             <svg
               class="like-icon"
               width="39"
@@ -573,6 +582,7 @@
               viewBox="0 0 39 36"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
+              aria-hidden="true"
             >
               <g class="heart">
                 <path
@@ -605,15 +615,13 @@
               />
             </svg>
           </button>
-          <button class="button card__like-button button__accent">
-            <span class="button__text button__text-color"> Like </span>
+          <button class="button card__like-button button__accent" type="button">
+            <span class="button__text"> Like </span>
           </button>
         </div>
       </article>
-    </main>
-    <footer class="footer">
       <button
-        class="button button__footer button__footer-accent"
+        class="button button__save-memory button__accent"
         type="button"
         onclick="window['popap-floppy'].showModal();"
         aria-controls="popap-floppy"
@@ -621,9 +629,7 @@
         <svg class="button__icon" width="40" height="40" viewBox="0 0 40 40">
           <use class="" href="./svg/floppy.svg#floppy-svg"></use>
         </svg>
-        <span class="button__footer-text">
-          Сохранить на память
-        </span>
+        <span class="button__text"> Сохранить на память </span>
       </button>
       <dialog
         class="dialog"
@@ -634,21 +640,17 @@
           <svg class="dialog__icon" width="40" height="40" viewBox="0 0 40 40">
             <use href="./svg/floppy.svg#floppy-svg"></use>
           </svg>
-          <h2 class="dialog__text">
-            Вставьте<br />
-            дискету, чтобы<br />
-            продолжить
-          </h2>
+          <h2 class="dialog__text">Вставьте дискету, чтобы продолжить</h2>
         </div>
         <form method="dialog">
           <button
-            class="button button__dialog button__dialog-accent"
+            class="button button__dialog button__dialog-accent button__accent"
           >
-            <span class="button__text-dialog">Ok</span>
+            <span class="button__text">Ok</span>
           </button>
         </form>
       </dialog>
-    </footer>
+    </main>
     <script src="./scripts/like.js"></script>
   </body>
 </html>

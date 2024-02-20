@@ -4,14 +4,15 @@
   --themes-mainColor-accent: #000; /* основной цвет фона */
   --color-text-button: #fff;
   --themes-mainFont: 'Inter-Variable';
-  --themes-mainFont-accent: 'PressStart2P-Regular';
+  --themes-mainFont-accent: 'PressStart2P';
   --font-weight: 400;
   --font-weight-header: 700;
   --bg-image: 
     repeating-linear-gradient(90deg, #d3d3d3 0 2px, rgb(211 211 211 / 0) 2px 4px),
     repeating-linear-gradient(180deg, #d3d3d3 0 2px, rgb(231 231 231 / 0) 2px 4px),
     linear-gradient(180deg, #e7e7e7 0.01%, #1a1a1a 100%);
+  --bg-color: #e7e7e7;
   --heart-color: #000;
   --heart-accent: #FF0000;
-  --width-section: clamp(1rem, -1.019rem + 8.615vw, 2.75rem);
+  --width-section: clamp(376px, 100%, 700px);
 }

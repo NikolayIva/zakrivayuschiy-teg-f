@@ -18,7 +18,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  align-self: center;
   margin-inline: auto;
   color: var(--themes-mainColor-accent, #000);
   font-family: var(--themes-mainFont, serif);
@@ -79,20 +78,21 @@
   font-size: clamp(0.875rem, 0.6769rem + 0.8451vw, 1.4375rem);
 }
 
+.theme-menu {
+  display: flex;
+  margin-inline-start: 20px;
+}
+
 .theme-menu__list {
   display: flex;
   flex-direction: column;
-  gap: 14px;
+  gap: 10px;
   padding-block-end: 25px;
   line-height: 14px;
 }
 
 .theme-menu__item {
   position: relative;
-}
-
-.button:hover {
-  cursor: pointer;
 }
 
 .theme-menu__button {
@@ -146,6 +146,7 @@
 }
 
 .article {
+  position: relative;
   display: grid;
   margin-inline: auto;
   border: 2px solid var(--themes-mainColor-accent, #000);
@@ -153,14 +154,11 @@
 }
 
 .article__header {
+  border-block-end: 2px solid var(--themes-mainColor-accent, #000);
   padding-inline: 10px;
   padding-block: 3px;
   font-size: 18px;
   font-variation-settings: "wght" var(--font-weight-header);
-}
-
-.article__pictures {
-  position: relative;
 }
 
 .pictures {
@@ -203,8 +201,8 @@
 
 .article__pictures-label {
   position: absolute;
-  top: 25px;
-  right: 25px;
+  top: 57px;
+  right: 24px;
   z-index: 1;
   opacity: 50%;
   font-family: var(--themes-mainFont-accent, serif);
@@ -231,8 +229,10 @@
   display: flex;
   flex-direction: column;
   gap: 27px;
+  box-sizing: border-box;
+  border-block-start: 2px solid var(--themes-mainColor-accent, #000);
   padding-inline: 25px;
-  padding-block: 25px;
+  padding-block: 26px;
 }
 
 .article__text-paragraph {
@@ -268,24 +268,33 @@
   border: 2px solid var(--themes-mainColor-accent, #000);
 }
 
-.card__like-button {
-  position: relative;
-  justify-content: center;
-  width: 130px;
-}
-
-.button__accent {
-  display: flex;
-  border: 2px solid var(--themes-mainColor-accent, #000);
-  padding-block: 12.5px;
-  overflow: hidden;
-  transition: 0.3s;
+.button__text {
+  font-family: var(--themes-mainFont-accent, serif);
+  font-size: 14px;
 }
 
 .button__text-accent {
   z-index: 2;
   color: var(--color-text-button);
   mix-blend-mode: difference;
+}
+
+.button__text:hover {
+  cursor: pointer;
+}
+
+.card__like-button {
+  position: relative;
+  justify-content: center;
+  width: 128px;
+}
+
+.button__accent {
+  display: flex;
+  border: 2px solid var(--themes-mainColor-accent, #000);
+  padding-block: 10.5px;
+  overflow: hidden;
+  transition: 0.3s;
 }
 
 .button__accent:focus {
@@ -309,13 +318,8 @@
   transform: translateX(-100%);
 }
 
-.button__accent:hover:hover::after {
+.button__accent:hover::after {
   transform: translateX(0);
-}
-
-.button__text {
-  font-family: var(--themes-mainFont-accent, serif);
-  font-size: 14px;
 }
 
 .button__aling {
@@ -328,7 +332,7 @@
   position: relative;
   align-items: center;
   gap: 8px;
-  margin-block: 50px 100px;
+  margin-block-end: 100px;
   padding-inline: 21px;
   padding-block: 15px;
   background-color: var(--themes-mainColor);
@@ -350,6 +354,7 @@
   display: flex;
   flex-direction: column;
   gap: 30px;
+  border: 2px solid var(--themes-mainColor-accent, #000);
   padding-inline: 30px;
   padding-block: 30px;
   background-color: var(--themes-mainColor);
@@ -409,7 +414,7 @@ dialog::backdrop {
     inline-size: 375px;
   }
 
-  .button__footer {
+  .button__save-memory {
     display: flex;
     flex-direction: column;
     align-items: center;

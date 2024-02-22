@@ -146,7 +146,6 @@
 }
 
 .article {
-  position: relative;
   display: grid;
   margin-inline: auto;
   border: 2px solid var(--themes-mainColor-accent, #000);
@@ -162,6 +161,7 @@
 }
 
 .pictures {
+  display: block;
   object-fit: cover;
   object-position: center;
   inline-size: 100%;
@@ -199,9 +199,13 @@
   filter: blur(4px);
 }
 
+.div__pictures {
+  position: relative;
+}
+
 .article__pictures-label {
   position: absolute;
-  top: 57px;
+  top: 25px;
   right: 24px;
   z-index: 1;
   opacity: 50%;
